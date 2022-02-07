@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>VideoStream</title>
+</head>
+<body>
+<div style="position:fixed; top:0px; left:0px; width:1280px; height:720px; background-color:#e2e9e9;color:#095170;">
+    <p style="position:fixed; top:0px;left:40px;font-family:bold;font-size: 18pt">SSD MOBILENET..OBJECT DETECTION..</p>
+
+    <div  class="example-display" style="position:fixed; top:50px; left:40px;">
+    <img id="bg" src="{{ url_for('video_feed') }}">
+    </div>
+         <div style="position:fixed; top:70px; left:1000px;">
+            <form action="\view" method="post">
+                <h3>Default: Camera</h3>
+                <h3>Object : Person </h3><br>
+                <h3>For Video : Enter Path </h3>
+                <input type="text" name="path" id="name" placeholder="Path" required><br><br>
+                <h3>Select Object </h3>
+                <input type="text" name="name" id="name" placeholder="object name" required><br><br>
+                <button type="submit" class="btn btn-primary">Submit</button></form>
+
+         </div>
+</div>
+
+</body>
+</html>
