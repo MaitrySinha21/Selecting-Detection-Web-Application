@@ -27,5 +27,5 @@
 ### 4) You can use any video as "street.mp4" or  any video of your choice or can directly use live camera.
 
 ### 5) To run the dockerfile pass the following command --
-    docker run -it --name vehicle_ssd -p 8888:8080 imageid
+    docker run -it --name vehicle_ssd -p 8888:5000 imageid
 
